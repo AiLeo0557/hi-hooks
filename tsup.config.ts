@@ -7,7 +7,7 @@ export default defineConfig({
   format: 'esm',
   splitting: true,
   sourcemap: false,
-  // minify: true,
+  minify: true,
   // esbuildOptions: {
   //   target: 'es2020',
   // },
