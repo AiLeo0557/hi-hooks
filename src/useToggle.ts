@@ -6,7 +6,7 @@ import useState from "./useState"
  * @param defaultValue
  * @returns
  */
-export default function useToggle(...args: any) {
+export function useToggle(...args: any) {
   const state = useState(...args)
   function onToggle(value?: boolean) {
     if (typeof value === 'boolean') {
