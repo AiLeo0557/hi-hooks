@@ -5,7 +5,7 @@ interface States {
 }
 const states = reactive<States>({})
 
-export default function useState(...args) {
+export function useState(...args) {
   const autoKey = typeof args[args.length - 1] === 'string' ? args.pop() : void 0
   if (typeof args[0] !== 'string') {
     args.unshift(autoKey)
