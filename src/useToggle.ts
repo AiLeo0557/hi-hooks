@@ -1,4 +1,4 @@
-import useState from "./useState"
+import { useState } from "./useState"
 
 /**
  * @function 状态转换
