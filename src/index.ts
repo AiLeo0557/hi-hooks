@@ -1,3 +1,4 @@
 export * from './useElementMounted'
 export * from './useState'
 export * from './useToggle'
+export * from './useTableData'
